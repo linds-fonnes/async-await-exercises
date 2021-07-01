@@ -1,0 +1,36 @@
+body {
+  background-color: green;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+#add-card {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 1.3rem;
+}
+
+#add-card:hover {
+  background-color: #0d0d0d;
+  cursor: pointer;
+}
+
+#card-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+#card-container > img {
+  position: absolute;
+}
